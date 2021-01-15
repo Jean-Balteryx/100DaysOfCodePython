@@ -11,3 +11,4 @@ I started it on 08/01/2021 and aim at completing the 100 days in a row. It would
 - Day 5 : Password Generator
 - Day 6 : Escaping the Maze
 - Day 7 : The Hangman
+- Day 8 : Caesar Cipher
