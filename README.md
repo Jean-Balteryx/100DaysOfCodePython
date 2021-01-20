@@ -15,3 +15,5 @@ I started it on 08/01/2021 and aim at completing the 100 days in a row. It would
 - Day 9 : Blind Auction
 - Day 10 : Calculator
 - Day 11 : Blackjack
+- Day 12 : Guess the Number
+- Day 13 : Debugging -> not a project
