@@ -21,3 +21,4 @@ I started it on 08/01/2021 and aim at completing the 100 days in a row. It would
 - Day 15 : Coffee Machine
 - Day 16 : Coffee Machine OOP
 - Day 17 : Quiz
+- DAy 18 : Hirst Painting
