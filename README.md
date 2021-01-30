@@ -24,3 +24,4 @@ I started it on 08/01/2021 and aim at completing the 100 days in a row. It would
 - Day 18 : Hirst Painting
 - Day 19 : Turtle Race
 - Days 20-21 : Snake Game
+- Day 22 : Pong Game
