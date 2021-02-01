@@ -26,3 +26,4 @@ I started it on 08/01/2021 and aim at completing the 100 days in a row. It would
 - Days 20-21 : Snake
 - Day 22 : Pong
 - Day 23 : Crossing Turtle
+- Day 24 : Mail Merge
