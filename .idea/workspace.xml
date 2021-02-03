@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aeea9435-becd-43eb-9021-6bdc03334909" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 27/day_27/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 27/day_27/miles_to_km_converter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 27/day_27/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 27/day_27/widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aeea9435-becd-43eb-9021-6bdc03334909" name="Default Changelist" comment="Adds Day 27 files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +100,14 @@
       <option name="presentableId" value="Default" />
       <updated>1612305479282</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adds Day 27 files">
+      <created>1612386572531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612386572531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adds Day 27 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds Day 27 files" />
   </component>
 </project>
