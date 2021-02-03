@@ -27,3 +27,5 @@ I started it on 08/01/2021 and aim at completing the 100 days in a row. It would
 - Day 22 : Pong
 - Day 23 : Crossing Turtle
 - Day 24 : Mail Merge
+- Day 25 : US States Map Quiz
+- Day 26 : NATO Alphabet
