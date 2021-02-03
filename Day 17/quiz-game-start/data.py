@@ -1,0 +1,37 @@
+question_data = [
+    {"category": "Science & Nature", "type": "boolean", "difficulty": "medium",
+     "question": "The Neanderthals were a direct ancestor of modern humans.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Geography", "type": "boolean", "difficulty": "medium",
+     "question": "Vietnam is the only country in the world that starts with V. ",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Comics", "type": "boolean", "difficulty": "easy",
+     "question": "Deadpool&#039;s identity is Slade Wilson.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "TF2: Sentry rocket damage falloff is calculated based "
+                 "on the distance between the sentry and the enemy, not the engineer and the enemy",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean",
+     "difficulty": "medium",
+     "question": "Pistons were added to Minecraft in Beta 1.5.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Japanese Anime & Manga", "type": "boolean",
+     "difficulty": "easy", "question": "Kiznaiver is an adaptation of a manga.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Television", "type": "boolean",
+     "difficulty": "medium",
+     "question": "In &quot;Star Trek: The Next Generation&quot;, Data is the only android in existence.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy",
+     "question": "In the &quot;S.T.A.L.K.E.R.&quot; series, the Freedom faction wishes "
+                 "to destroy the supernatural area known as  &quot;the Zone&quot;.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy",
+     "question": "There are 2 player roles in Trouble in Terrorist Town.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Science & Nature", "type": "boolean", "difficulty": "medium",
+     "question": "&quot;Tachycardia&quot; or &quot;Tachyarrhythmia&quot; refers "
+                 "to a resting heart-rate near or over 100 BPM.",
+     "correct_answer": "True", "incorrect_answers": ["False"]}
+]
