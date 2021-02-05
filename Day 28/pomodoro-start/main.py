@@ -62,6 +62,7 @@ def count_down(count):
 
         check_mark.config(text=marks)
 
+
 # ---------------------------- UI SETUP ------------------------------- #
 # ✔
 window = Tk()
