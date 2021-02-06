@@ -7,23 +7,29 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 1
+WORK_MIN = 25
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 
+# Number of repetitions
 reps = 0
+
 timer = None
 
 
 # ---------------------------- TIMER RESET ------------------------------- #
 def reset_timer():
+    """Resets the timer"""
     window.after_cancel(timer)
 
     canvas.itemconfig(timer_text, text="00:00")
     timer_label.config(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 40, "normal"))
     check_mark.config(text="")
+
+
 # ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
+    """Starts the timer"""
     global reps
     reps += 1
 
@@ -44,6 +50,7 @@ def start_timer():
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 def count_down(count):
+    """Counts the time down"""
     global timer
 
     count_min = math.floor(count / 60)
@@ -64,7 +71,8 @@ def count_down(count):
 
 
 # ---------------------------- UI SETUP ------------------------------- #
-# ✔
+
+# Creates the window with title, padding and background color
 window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
@@ -88,9 +96,8 @@ start_button.grid(column=0, row=2)
 reset_button = Button(text="Reset", command=reset_timer)
 reset_button.grid(column=2, row=2)
 
-# Tick mark
+# Check marks
 check_mark = Label(text="", fg=GREEN, bg=YELLOW)
 check_mark.grid(column=1, row=3)
-
 
 window.mainloop()
