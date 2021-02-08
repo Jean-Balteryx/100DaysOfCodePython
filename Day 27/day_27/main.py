@@ -34,14 +34,4 @@ entry = tkinter.Entry(width=10)
 # entry.pack()
 entry.grid(column=3, row=2)
 
-
-
-
-
-
-
-
-
-
-
 window.mainloop()
