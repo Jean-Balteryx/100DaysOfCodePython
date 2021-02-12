@@ -36,8 +36,7 @@ for hour_data in data["hourly"][:12]:
                 body="Bring an umbrella.",
                 from_="+15863718448",
                 to="+33665708618"
-        )
+            )
 
         print(message.status)
         break
-
