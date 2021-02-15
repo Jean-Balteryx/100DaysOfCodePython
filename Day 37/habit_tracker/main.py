@@ -44,8 +44,8 @@ pixel_config = {
     "quantity": input("How many kilometers did you cycle today? ")
 }
 
-# response = requests.post(url=PIXEL_ENDPOINT, json=pixel_config, headers=headers)
-# print(response.text)
+response = requests.post(url=PIXEL_ENDPOINT, json=pixel_config, headers=headers)
+print(response.text)
 
 UPDATE_ENDPOINT = f"{PIXEL_ENDPOINT}/20210214"
 
@@ -59,5 +59,5 @@ update_pixel_config = {
 
 DELETE_ENDPOINT = f"{PIXEL_ENDPOINT}/20210214"
 
-response = requests.delete(url=DELETE_ENDPOINT, headers=headers)
-print(response.text)
+# response = requests.delete(url=DELETE_ENDPOINT, headers=headers)
+# print(response.text)
